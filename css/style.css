@@ -1,0 +1,26 @@
+:root{
+    --primary-color: #0000ff;
+    --secondary-color: #ff0000;
+    --text-color: #000000;
+    --font-family-1: Arial, Helvetica, sans-serif 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-size: 1em;
+    font-family: var(--font-family-1);
+}
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+}
+#navbar{
+    background-color: rgba(0, 255, 255, 0.432);
+}
+#alert{
+    display: none;
+}
